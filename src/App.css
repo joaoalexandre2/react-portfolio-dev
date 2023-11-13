@@ -1,0 +1,12 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Suas regras CSS personalizadas podem vir depois das importações do Tailwind CSS */
+@layer components{
+    .button{
+        @apply cursor-pointer rounded-md bg-white px-4 py-2 font-headline text-sm
+        font-semibold transition;
+    }
+}
+
